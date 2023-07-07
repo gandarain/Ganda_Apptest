@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<coverage generated="1688722881610" clover="3.2.0">
+  <project timestamp="1688722881610" name="All files">
+    <metrics statements="26" coveredstatements="26" conditionals="10" coveredconditionals="8" methods="11" coveredmethods="11" elements="47" coveredelements="45" complexity="0" loc="26" ncloc="26" packages="4" files="8" classes="8"/>
+    <package name="component.buttonFull">
+      <metrics statements="5" coveredstatements="5" conditionals="4" coveredconditionals="4" methods="3" coveredmethods="3"/>
+      <file name="buttonFull.component.js" path="/Users/mac/Documents/Test/Jenius/Ganda_Apptest/src/component/buttonFull/buttonFull.component.js">
+        <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="6" count="1" type="stmt"/>
+        <line num="7" count="2" type="stmt"/>
+      </file>
+      <file name="buttonFull.component.styles.js" path="/Users/mac/Documents/Test/Jenius/Ganda_Apptest/src/component/buttonFull/buttonFull.component.styles.js">
+        <metrics statements="3" coveredstatements="3" conditionals="4" coveredconditionals="4" methods="2" coveredmethods="2"/>
+        <line num="6" count="1" type="stmt"/>
+        <line num="7" count="2" type="stmt"/>
+        <line num="17" count="2" type="stmt"/>
+      </file>
+    </package>
+    <package name="component.header">
+      <metrics statements="14" coveredstatements="14" conditionals="6" coveredconditionals="4" methods="7" coveredmethods="7"/>
+      <file name="header.component.js" path="/Users/mac/Documents/Test/Jenius/Ganda_Apptest/src/component/header/header.component.js">
+        <metrics statements="13" coveredstatements="13" conditionals="2" coveredconditionals="2" methods="7" coveredmethods="7"/>
+        <line num="14" count="2" type="stmt"/>
+        <line num="15" count="1" type="stmt"/>
+        <line num="18" count="1" type="stmt"/>
+        <line num="19" count="1" type="stmt"/>
+        <line num="32" count="1" type="stmt"/>
+        <line num="33" count="2" type="stmt"/>
+        <line num="42" count="1" type="stmt"/>
+        <line num="43" count="2" type="stmt"/>
+        <line num="48" count="1" type="stmt"/>
+        <line num="49" count="2" type="stmt"/>
+        <line num="62" count="1" type="stmt"/>
+        <line num="63" count="2" type="stmt"/>
+        <line num="65" count="2" type="stmt"/>
+      </file>
+      <file name="header.component.styles.js" path="/Users/mac/Documents/Test/Jenius/Ganda_Apptest/src/component/header/header.component.styles.js">
+        <metrics statements="1" coveredstatements="1" conditionals="4" coveredconditionals="2" methods="0" coveredmethods="0"/>
+        <line num="6" count="1" type="stmt"/>
+      </file>
+    </package>
+    <package name="component.loading">
+      <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+      <file name="loading.component.js" path="/Users/mac/Documents/Test/Jenius/Ganda_Apptest/src/component/loading/loading.component.js">
+        <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="6" count="1" type="stmt"/>
+        <line num="7" count="1" type="stmt"/>
+      </file>
+      <file name="loading.component.styles.js" path="/Users/mac/Documents/Test/Jenius/Ganda_Apptest/src/component/loading/loading.component.styles.js">
+        <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="5" count="1" type="stmt"/>
+      </file>
+    </package>
+    <package name="constant">
+      <metrics statements="4" coveredstatements="4" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+      <file name="color.js" path="/Users/mac/Documents/Test/Jenius/Ganda_Apptest/src/constant/color.js">
+        <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="1" count="3" type="stmt"/>
+      </file>
+      <file name="font.js" path="/Users/mac/Documents/Test/Jenius/Ganda_Apptest/src/constant/font.js">
+        <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="1" count="2" type="stmt"/>
+        <line num="8" count="2" type="stmt"/>
+        <line num="14" count="2" type="stmt"/>
+      </file>
+    </package>
+  </project>
+</coverage>

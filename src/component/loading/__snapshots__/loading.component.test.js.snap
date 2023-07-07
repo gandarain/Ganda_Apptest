@@ -1,0 +1,18 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Loading Component should render snapshot 1`] = `
+<View
+  accessibilityLabel="ContainerLoading"
+  style={
+    {
+      "marginVertical": 20,
+    }
+  }
+>
+  <ActivityIndicator
+    accessibilityLabel="ActivityIndicator"
+    color="#FF6049"
+    size="large"
+  />
+</View>
+`;

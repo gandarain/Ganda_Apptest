@@ -8,7 +8,9 @@
     "start": "react-native start",
     "test": "jest",
     "lint": "eslint .",
-    "fix:lint": "eslint . --fix"
+    "fix:lint": "eslint . --fix",
+    "test:coverage": "TZ='Asia/Jakarta' jest --expand --collectCoverage",
+    "test:view": "open coverage/lcov-report/index.html"
   },
   "dependencies": {
     "@react-native-masked-view/masked-view": "0.2.9",

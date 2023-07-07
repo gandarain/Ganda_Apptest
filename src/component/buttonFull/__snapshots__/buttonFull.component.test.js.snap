@@ -1,0 +1,85 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ButtonFull Component should render button full with border 1`] = `
+<View
+  accessibilityLabel="ButtonFull"
+  accessible={true}
+  collapsable={false}
+  focusable={true}
+  onClick={[Function]}
+  onResponderGrant={[Function]}
+  onResponderMove={[Function]}
+  onResponderRelease={[Function]}
+  onResponderTerminate={[Function]}
+  onResponderTerminationRequest={[Function]}
+  onStartShouldSetResponder={[Function]}
+  style={
+    {
+      "alignItems": "center",
+      "backgroundColor": "#FFFFFF",
+      "borderColor": "#FF6049",
+      "borderRadius": 8,
+      "borderWidth": 1,
+      "justifyContent": "center",
+      "opacity": 1,
+      "padding": 15,
+      "width": "100%",
+    }
+  }
+>
+  <Text
+    accessibilityLabel="TextButtonFull"
+    style={
+      {
+        "color": "#FF6049",
+        "fontFamily": "Roboto-Bold",
+        "fontSize": 20,
+      }
+    }
+  >
+    title
+  </Text>
+</View>
+`;
+
+exports[`ButtonFull Component should render button full without border 1`] = `
+<View
+  accessibilityLabel="ButtonFull"
+  accessible={true}
+  collapsable={false}
+  focusable={true}
+  onClick={[Function]}
+  onResponderGrant={[Function]}
+  onResponderMove={[Function]}
+  onResponderRelease={[Function]}
+  onResponderTerminate={[Function]}
+  onResponderTerminationRequest={[Function]}
+  onStartShouldSetResponder={[Function]}
+  style={
+    {
+      "alignItems": "center",
+      "backgroundColor": "#FF6049",
+      "borderColor": "#FF6049",
+      "borderRadius": 8,
+      "borderWidth": 1,
+      "justifyContent": "center",
+      "opacity": 1,
+      "padding": 15,
+      "width": "100%",
+    }
+  }
+>
+  <Text
+    accessibilityLabel="TextButtonFull"
+    style={
+      {
+        "color": "#FFFFFF",
+        "fontFamily": "Roboto-Bold",
+        "fontSize": 20,
+      }
+    }
+  >
+    title
+  </Text>
+</View>
+`;
