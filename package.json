@@ -1,0 +1,54 @@
+{
+  "name": "cat_app",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "android": "react-native run-android",
+    "ios": "react-native run-ios --simulator='iPhone 8 (13.3)'",
+    "start": "react-native start",
+    "test": "jest",
+    "lint": "eslint .",
+    "fix:lint": "eslint . --fix"
+  },
+  "dependencies": {
+    "@react-native-masked-view/masked-view": "0.2.9",
+    "@react-navigation/material-top-tabs": "^5.3.13",
+    "@react-navigation/native": "6.1.6",
+    "@react-navigation/native-stack": "6.9.12",
+    "@react-navigation/stack": "6.3.16",
+    "axios": "1.4.0",
+    "formik": "^2.2.9",
+    "lodash": "^4.17.21",
+    "react": "17.0.2",
+    "react-native": "0.68.1",
+    "react-native-config": "^1.5.0",
+    "react-native-gesture-handler": "2.9.0",
+    "react-native-reanimated": "^1.9.0",
+    "react-native-safe-area-context": "4.3.4",
+    "react-native-screens": "3.20.0",
+    "react-native-tab-view": "^2.15.2",
+    "react-native-vector-icons": "^9.2.0",
+    "yup": "^1.1.1"
+  },
+  "devDependencies": {
+    "@babel/core": "7.21.8",
+    "@babel/runtime": "7.21.5",
+    "@react-native-community/eslint-config": "3.2.0",
+    "babel-jest": "29.5.0",
+    "eslint": "8.39.0",
+    "eslint-plugin-ft-flow": "^2.0.3",
+    "jest": "29.5.0",
+    "metro-react-native-babel-preset": "0.76.3",
+    "prettier": "2.8.8",
+    "react-test-renderer": "17.0.2"
+  },
+  "jest": {
+    "preset": "react-native"
+  },
+  "rnpm": {
+    "assets": [
+      "./src/asset/font",
+      "./src/asset/icon"
+    ]
+  }
+}
