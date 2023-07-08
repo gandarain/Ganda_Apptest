@@ -1,0 +1,43 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Splash Component should render splash component 1`] = `
+<View
+  accessibilityLabel="ContainerSplash"
+  style={
+    {
+      "alignItems": "center",
+      "backgroundColor": "#FF6049",
+      "flex": 1,
+      "justifyContent": "center",
+    }
+  }
+>
+  <Image
+    accessibilityLabel="ImageSplash"
+    style={
+      {
+        "height": 100,
+        "width": 100,
+      }
+    }
+  />
+  <Text
+    accessibilityLabel="TitleSplash"
+    style={
+      {
+        "color": "#FFFFFF",
+        "fontFamily": "Roboto-Bold",
+        "fontSize": 20,
+        "marginVertical": 20,
+      }
+    }
+  >
+    Contact
+  </Text>
+  <ActivityIndicator
+    accessibilityLabel="ActivityIndicator"
+    color="#FFFFFF"
+    size="large"
+  />
+</View>
+`;
