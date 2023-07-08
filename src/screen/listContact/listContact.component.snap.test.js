@@ -1,5 +1,6 @@
 import React from 'react'
 import renderer from 'react-test-renderer'
+import { useSelector } from 'react-redux'
 
 import { mockContacts } from '../../fixture'
 
@@ -21,8 +22,25 @@ jest
       })
     })
   }))
+  .mock('react-redux', () => ({
+    useDispatch: jest.fn(),
+    useSelector: jest.fn()
+  }))
+  .mock('../../redux/action/listContactsActions', () => ({
+    setLoadingListContacts: jest.fn()
+  }))
+
+const mockStore = {
+  listContactsReducer: {
+    loading: false
+  }
+}
 
 describe('List Contact Component', () => {
+  beforeEach(() => {
+    useSelector.mockImplementation(selector => selector(mockStore))
+  })
+
   afterEach(() => {
     jest.clearAllMocks()
   })
@@ -58,6 +76,27 @@ describe('List Contact Component', () => {
       .spyOn(React, 'useState')
       .mockImplementationOnce(() => [contacts, setStateMock])
       .mockImplementationOnce(() => [loading, setStateMock])
+
+    const rendered = renderer.create(<ListContact />)
+    const tree = rendered.toJSON()
+
+    expect(tree).toMatchSnapshot()
+  })
+
+  it('should render loading when listContactsReducer loading is true', () => {
+    const loading = false
+    const contacts = mockContacts
+    const setStateMock = jest.fn()
+
+    React.useState = jest.fn().mockReturnValue([contacts, {}])
+    React.useState = jest.fn().mockReturnValue([loading, {}])
+    React.useEffect = jest.fn()
+
+    jest
+      .spyOn(React, 'useState')
+      .mockImplementationOnce(() => [contacts, setStateMock])
+      .mockImplementationOnce(() => [loading, setStateMock])
+    jest.spyOn(React, 'useEffect')
 
     const rendered = renderer.create(<ListContact />)
     const tree = rendered.toJSON()

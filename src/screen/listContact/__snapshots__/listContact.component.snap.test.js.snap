@@ -103,3 +103,70 @@ exports[`List Contact Component should render loading 1`] = `
   </View>
 </View>
 `;
+
+exports[`List Contact Component should render loading when listContactsReducer loading is true 1`] = `
+<View
+  style={
+    {
+      "backgroundColor": "#FFFFFF",
+      "flex": 1,
+    }
+  }
+>
+  <Header
+    right={
+      [
+        {
+          "action": [Function],
+          "icon": "plus",
+        },
+      ]
+    }
+    title="List Contact"
+  />
+  <RCTScrollView
+    accessibilityLabel="ListContacts"
+    data={
+      {
+        "data": {
+          "data": [
+            {
+              "age": 111,
+              "firstName": "Bilbo",
+              "id": "93ad6070-c92b-11e8-b02f-cbfa15db428b",
+              "lastName": "Baggins",
+              "photo": "http://vignette1.wikia.nocookie.net/lotr/images/6/68/Bilbo_baggins.jpg/revision/latest?cb=20130202022550",
+            },
+          ],
+        },
+      }
+    }
+    getItem={[Function]}
+    getItemCount={[Function]}
+    keyExtractor={[Function]}
+    onContentSizeChange={[Function]}
+    onLayout={[Function]}
+    onMomentumScrollBegin={[Function]}
+    onMomentumScrollEnd={[Function]}
+    onRefresh={[Function]}
+    onScroll={[Function]}
+    onScrollBeginDrag={[Function]}
+    onScrollEndDrag={[Function]}
+    refreshControl={
+      <RefreshControlMock
+        onRefresh={[Function]}
+        refreshing={false}
+      />
+    }
+    refreshing={false}
+    removeClippedSubviews={false}
+    renderItem={[Function]}
+    scrollEventThrottle={50}
+    stickyHeaderIndices={[]}
+    viewabilityConfigCallbackPairs={[]}
+  >
+    <RCTRefreshControl />
+    <View />
+  </RCTScrollView>
+</View>
+`;

@@ -17,7 +17,7 @@ jest
 
 describe('Contact Component', () => {
   it('should render contact component', () => {
-    const rendered = renderer.create(<Contact item={mockContact} />)
+    const rendered = renderer.create(<Contact item={mockContact.data.data} />)
     const tree = rendered.toJSON()
 
     expect(tree).toMatchSnapshot()

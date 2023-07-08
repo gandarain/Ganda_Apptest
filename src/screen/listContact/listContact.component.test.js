@@ -1,10 +1,12 @@
+import { useSelector } from 'react-redux'
+
 import { mockContacts } from '../../fixture'
 import Routes from '../../navigation/routes'
 import Service from '../../service'
 
 import {
   getContactsHandler,
-  navigateToContactDetail,
+  navigateToCreateContact,
   onRefreshHandler,
   renderItem
 } from './listContact.component'
@@ -25,8 +27,25 @@ jest
       })
     })
   }))
+  .mock('react-redux', () => ({
+    useDispatch: jest.fn(),
+    useSelector: jest.fn()
+  }))
+  .mock('../../redux/action/listContactsActions', () => ({
+    setLoadingListContacts: jest.fn()
+  }))
+
+const mockStore = {
+  listContactsReducer: {
+    loading: false
+  }
+}
 
 describe('List Contact Component', () => {
+  beforeEach(() => {
+    useSelector.mockImplementation(selector => selector(mockStore))
+  })
+
   afterEach(() => {
     jest.clearAllMocks()
   })
@@ -39,7 +58,10 @@ describe('List Contact Component', () => {
     it('should call correct state when getContactsHandler is return success', async () => {
       const mockState = {
         setContacts: jest.fn(),
-        setLoading: jest.fn()
+        setLoading: jest.fn(),
+        dispatch: () => ({
+          setLoadingListContacts: jest.fn()
+        })
       }
 
       Service.get.mockImplementation(() => Promise.resolve(mockContacts))
@@ -53,7 +75,10 @@ describe('List Contact Component', () => {
     it('should call correct state when getContactsHandler is return error', async () => {
       const mockState = {
         setContacts: jest.fn(),
-        setLoading: jest.fn()
+        setLoading: jest.fn(),
+        dispatch: () => ({
+          setLoadingListContacts: jest.fn()
+        })
       }
 
       Service.get.mockImplementation(() => Promise.reject(new Error()))
@@ -65,17 +90,17 @@ describe('List Contact Component', () => {
     })
   })
 
-  it('should call correct state when navigateToContactDetail', () => {
+  it('should call correct state when navigateToCreateContact', () => {
     const mockState = {
       navigation: {
         navigate: jest.fn()
       }
     }
 
-    navigateToContactDetail(mockState)()
+    navigateToCreateContact(mockState)()
 
     expect(mockState.navigation.navigate).toHaveBeenCalledWith(
-      Routes.DetailContact
+      Routes.CreateContact
     )
   })
 
@@ -93,7 +118,9 @@ describe('List Contact Component', () => {
 
   it('should return Contact component when renderItem', () => {
     const expectedResult = 'Contact'
-    const result = renderItem()(mockContacts.data.data[0])
+    const mockItem = mockContacts.data.data[0]
+
+    const result = renderItem()({ item: mockItem })
 
     expect(result.type).toBe(expectedResult)
   })

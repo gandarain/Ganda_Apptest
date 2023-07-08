@@ -43,8 +43,10 @@ const renderContent = item => (
   </View>
 )
 
-export const navigateToContactDetail = state => () => {
-  state.navigation.navigate(Routes.DetailContact)
+export const navigateToContactDetail = (state, item) => () => {
+  state.navigation.navigate(Routes.DetailContact, {
+    id: item.id
+  })
 }
 
 const useContact = () => {
@@ -64,7 +66,8 @@ const Contact = ({ item }) => {
     <TouchableOpacity
       accessibilityLabel="ContainerItem"
       style={styles.containerItem}
-      onPress={navigateToContactDetail(state)}
+      onPress={navigateToContactDetail(state, item)}
+      key={item.id}
     >
       {renderContent(item)}
       {renderIcon(state)}

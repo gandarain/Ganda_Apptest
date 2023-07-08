@@ -1,0 +1,296 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Detail Contact Component should render detail contact component 1`] = `
+<View
+  style={
+    {
+      "backgroundColor": "#FFFFFF",
+      "flex": 1,
+    }
+  }
+>
+  <Header
+    right={
+      [
+        {
+          "action": [Function],
+          "icon": "pencil-outline",
+        },
+        {
+          "action": [Function],
+          "icon": "delete-outline",
+        },
+      ]
+    }
+    showBackButton={true}
+    title="Detail Contact"
+  />
+  <RCTScrollView
+    accessibilityLabel="ContainerDetailContact"
+  >
+    <View>
+      <Image
+        accessibilityLabel="ImageDetailContact"
+        resizeMode="cover"
+        source={
+          {
+            "uri": "http://vignette1.wikia.nocookie.net/lotr/images/6/68/Bilbo_baggins.jpg/revision/latest?cb=20130202022550",
+          }
+        }
+        style={
+          {
+            "height": 300,
+            "width": "100%",
+          }
+        }
+      />
+      <View
+        accessibilityLabel="NameDetailContact"
+        style={
+          {
+            "borderBottomColor": "#EEEEEE",
+            "borderBottomWidth": 1,
+            "marginHorizontal": 15,
+            "marginTop": 15,
+            "paddingBottom": 15,
+          }
+        }
+      >
+        <Text
+          accessibilityLabel="TitleNameDetailContact"
+          style={
+            {
+              "color": "#5E5E5E",
+              "fontFamily": "Roboto-Bold",
+              "fontSize": 18,
+              "marginBottom": 10,
+            }
+          }
+        >
+          Name
+        </Text>
+        <Text
+          accessibilityLabel="TextNameDetailContact"
+          style={
+            {
+              "color": "#5E5E5E",
+              "fontFamily": "Roboto-Regular",
+              "fontSize": 18,
+            }
+          }
+        >
+          Bilbo
+           
+          Baggins
+        </Text>
+      </View>
+      <View
+        accessibilityLabel="AgetDetailContact"
+        style={
+          {
+            "borderBottomColor": "#EEEEEE",
+            "borderBottomWidth": 1,
+            "marginHorizontal": 15,
+            "marginTop": 15,
+            "paddingBottom": 15,
+          }
+        }
+      >
+        <Text
+          accessibilityLabel="TitleAgeDetailContact"
+          style={
+            {
+              "color": "#5E5E5E",
+              "fontFamily": "Roboto-Bold",
+              "fontSize": 18,
+              "marginBottom": 10,
+            }
+          }
+        >
+          Age
+        </Text>
+        <Text
+          accessibilityLabel="TextAgeDetailContact"
+          style={
+            {
+              "color": "#5E5E5E",
+              "fontFamily": "Roboto-Regular",
+              "fontSize": 18,
+            }
+          }
+        >
+          111
+        </Text>
+      </View>
+    </View>
+  </RCTScrollView>
+  <Loader
+    onClose={[Function]}
+    visible={false}
+  />
+</View>
+`;
+
+exports[`Detail Contact Component should render loader 1`] = `
+<View
+  style={
+    {
+      "backgroundColor": "#FFFFFF",
+      "flex": 1,
+    }
+  }
+>
+  <Header
+    right={
+      [
+        {
+          "action": [Function],
+          "icon": "pencil-outline",
+        },
+        {
+          "action": [Function],
+          "icon": "delete-outline",
+        },
+      ]
+    }
+    showBackButton={true}
+    title="Detail Contact"
+  />
+  <RCTScrollView
+    accessibilityLabel="ContainerDetailContact"
+  >
+    <View>
+      <Image
+        accessibilityLabel="ImageDetailContact"
+        resizeMode="cover"
+        source={
+          {
+            "uri": "http://vignette1.wikia.nocookie.net/lotr/images/6/68/Bilbo_baggins.jpg/revision/latest?cb=20130202022550",
+          }
+        }
+        style={
+          {
+            "height": 300,
+            "width": "100%",
+          }
+        }
+      />
+      <View
+        accessibilityLabel="NameDetailContact"
+        style={
+          {
+            "borderBottomColor": "#EEEEEE",
+            "borderBottomWidth": 1,
+            "marginHorizontal": 15,
+            "marginTop": 15,
+            "paddingBottom": 15,
+          }
+        }
+      >
+        <Text
+          accessibilityLabel="TitleNameDetailContact"
+          style={
+            {
+              "color": "#5E5E5E",
+              "fontFamily": "Roboto-Bold",
+              "fontSize": 18,
+              "marginBottom": 10,
+            }
+          }
+        >
+          Name
+        </Text>
+        <Text
+          accessibilityLabel="TextNameDetailContact"
+          style={
+            {
+              "color": "#5E5E5E",
+              "fontFamily": "Roboto-Regular",
+              "fontSize": 18,
+            }
+          }
+        >
+          Bilbo
+           
+          Baggins
+        </Text>
+      </View>
+      <View
+        accessibilityLabel="AgetDetailContact"
+        style={
+          {
+            "borderBottomColor": "#EEEEEE",
+            "borderBottomWidth": 1,
+            "marginHorizontal": 15,
+            "marginTop": 15,
+            "paddingBottom": 15,
+          }
+        }
+      >
+        <Text
+          accessibilityLabel="TitleAgeDetailContact"
+          style={
+            {
+              "color": "#5E5E5E",
+              "fontFamily": "Roboto-Bold",
+              "fontSize": 18,
+              "marginBottom": 10,
+            }
+          }
+        >
+          Age
+        </Text>
+        <Text
+          accessibilityLabel="TextAgeDetailContact"
+          style={
+            {
+              "color": "#5E5E5E",
+              "fontFamily": "Roboto-Regular",
+              "fontSize": 18,
+            }
+          }
+        >
+          111
+        </Text>
+      </View>
+    </View>
+  </RCTScrollView>
+  <Loader
+    onClose={[Function]}
+    visible={true}
+  />
+</View>
+`;
+
+exports[`Detail Contact Component should render loading 1`] = `
+<View
+  style={
+    {
+      "backgroundColor": "#FFFFFF",
+      "flex": 1,
+    }
+  }
+>
+  <Header
+    right={
+      [
+        {
+          "action": [Function],
+          "icon": "pencil-outline",
+        },
+        {
+          "action": [Function],
+          "icon": "delete-outline",
+        },
+      ]
+    }
+    showBackButton={true}
+    title="Detail Contact"
+  />
+  <Loading />
+  <Loader
+    onClose={[Function]}
+    visible={false}
+  />
+</View>
+`;

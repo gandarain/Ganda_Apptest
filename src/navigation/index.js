@@ -9,6 +9,7 @@ import Routes from './routes'
 import Splash from '../screen/splash'
 import ListContact from '../screen/listContact'
 import DetailContact from '../screen/detailContact'
+import CreateContact from '../screen/createContact'
 
 const Stack = createStackNavigator()
 
@@ -27,6 +28,11 @@ const MainStack = () => (
     <Stack.Screen
       name={Routes.DetailContact}
       component={DetailContact}
+      options={{ headerShown: false, ...TransitionPresets.SlideFromRightIOS }}
+    />
+    <Stack.Screen
+      name={Routes.CreateContact}
+      component={CreateContact}
       options={{ headerShown: false, ...TransitionPresets.SlideFromRightIOS }}
     />
   </Stack.Navigator>

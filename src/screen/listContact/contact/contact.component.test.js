@@ -19,11 +19,17 @@ describe('Contact Component', () => {
         navigate: jest.fn()
       }
     }
+    const mockItem = {
+      id: 'id'
+    }
 
-    navigateToContactDetail(mockState)()
+    navigateToContactDetail(mockState, mockItem)()
 
     expect(mockState.navigation.navigate).toHaveBeenCalledWith(
-      Routes.DetailContact
+      Routes.DetailContact,
+      {
+        id: mockItem.id
+      }
     )
   })
 })

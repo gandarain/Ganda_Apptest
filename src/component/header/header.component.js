@@ -62,8 +62,12 @@ const renderBody = props => (
 
 const renderRightContent = props => (
   <View style={styles.rightContent}>
-    {props.right.map(item => (
-      <TouchableOpacity accessibilityLabel="ButtonLeft" onPress={item.action}>
+    {props.right.map((item, index) => (
+      <TouchableOpacity
+        key={index}
+        accessibilityLabel="ButtonLeft"
+        onPress={item.action}
+      >
         <Icon
           accessibilityLabel="IconRight"
           name={item.icon}
@@ -96,7 +100,7 @@ const Header = props => {
       <View accessibilityLabel="ViewHeader">
         {renderStatusBar(props, navigation)}
         <View accessibilityLabel="ContainerHeader" style={styles.container}>
-          {renderLeft(props)}
+          {renderLeft(props, navigation)}
           {renderBody(props)}
           {renderRight(props, navigation)}
         </View>
