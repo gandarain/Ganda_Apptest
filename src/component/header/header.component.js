@@ -8,6 +8,7 @@ import {
 } from 'react-native'
 import Icon from 'react-native-vector-icons/MaterialCommunityIcons'
 import { useNavigation } from '@react-navigation/native'
+import _ from 'lodash'
 
 import styles from './header.component.styles'
 
@@ -59,6 +60,31 @@ const renderBody = props => (
   </View>
 )
 
+const renderRightContent = props => (
+  <View style={styles.rightContent}>
+    {props.right.map(item => (
+      <TouchableOpacity accessibilityLabel="ButtonLeft" onPress={item.action}>
+        <Icon
+          accessibilityLabel="IconRight"
+          name={item.icon}
+          size={styles.leftIcon.size}
+          color={styles.leftIcon.color}
+        />
+      </TouchableOpacity>
+    ))}
+  </View>
+)
+
+const renderRight = (props, navigation) => {
+  const right = _.get(props, 'right', [])
+
+  return (
+    <View accessibilityLabel="ContainerRight" style={styles.rightContainer}>
+      {right.length > 0 && renderRightContent(props, navigation)}
+    </View>
+  )
+}
+
 const Header = props => {
   const navigation = useNavigation()
 
@@ -72,10 +98,7 @@ const Header = props => {
         <View accessibilityLabel="ContainerHeader" style={styles.container}>
           {renderLeft(props)}
           {renderBody(props)}
-          <View
-            accessibilityLabel="ContainerRight"
-            style={styles.rightContainer}
-          />
+          {renderRight(props, navigation)}
         </View>
       </View>
     </SafeAreaView>

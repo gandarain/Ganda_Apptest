@@ -103,6 +103,143 @@ exports[`Header Component should render header with back button 1`] = `
 </RCTSafeAreaView>
 `;
 
+exports[`Header Component should render header with right buttons 1`] = `
+<RCTSafeAreaView
+  accessibilityLabel="SafeAreaViewHeader"
+  emulateUnlessSupported={true}
+  style={
+    {
+      "backgroundColor": "#FF6049",
+    }
+  }
+>
+  <View
+    accessibilityLabel="ViewHeader"
+  >
+    <View
+      accessibilityLabel="ContainerHeader"
+      style={
+        {
+          "alignItems": "center",
+          "backgroundColor": "#FF6049",
+          "flexDirection": "row",
+          "justifyContent": "space-between",
+          "marginTop": 0,
+          "paddingHorizontal": 10,
+          "paddingVertical": 20,
+          "width": "100%",
+        }
+      }
+    >
+      <View
+        accessibilityLabel="ContainerLeft"
+        style={
+          {
+            "width": "15%",
+          }
+        }
+      >
+        <View
+          accessibilityLabel="ButtonLeft"
+          accessible={true}
+          collapsable={false}
+          focusable={true}
+          onClick={[Function]}
+          onResponderGrant={[Function]}
+          onResponderMove={[Function]}
+          onResponderRelease={[Function]}
+          onResponderTerminate={[Function]}
+          onResponderTerminationRequest={[Function]}
+          onStartShouldSetResponder={[Function]}
+          style={
+            {
+              "opacity": 1,
+            }
+          }
+        >
+          <Icon
+            accessibilityLabel="IconLeft"
+            color="#FFFFFF"
+            name="arrow-left"
+            size={25}
+          />
+        </View>
+      </View>
+      <View
+        accessibilityLabel="ContainerBody"
+        style={
+          {
+            "alignItems": "center",
+            "width": "70%",
+          }
+        }
+      >
+        <View
+          accessibilityLabel="SubContainerBody"
+        >
+          <Text
+            accessibilityLabel="TextBody"
+            numberOfLines={1}
+            style={
+              {
+                "color": "#FFFFFF",
+                "fontFamily": "Roboto-Bold",
+                "fontSize": 20,
+              }
+            }
+          >
+            title
+          </Text>
+        </View>
+      </View>
+      <View
+        accessibilityLabel="ContainerRight"
+        style={
+          {
+            "alignItems": "flex-end",
+            "width": "15%",
+          }
+        }
+      >
+        <View
+          style={
+            {
+              "flexDirection": "row",
+            }
+          }
+        >
+          <View
+            accessibilityLabel="ButtonLeft"
+            accessible={true}
+            collapsable={false}
+            focusable={true}
+            onClick={[Function]}
+            onResponderGrant={[Function]}
+            onResponderMove={[Function]}
+            onResponderRelease={[Function]}
+            onResponderTerminate={[Function]}
+            onResponderTerminationRequest={[Function]}
+            onStartShouldSetResponder={[Function]}
+            style={
+              {
+                "opacity": 1,
+              }
+            }
+          >
+            <Icon
+              accessibilityLabel="IconRight"
+              color="#FFFFFF"
+              name="icon-right"
+              size={25}
+            />
+          </View>
+        </View>
+      </View>
+    </View>
+  </View>
+</RCTSafeAreaView>
+`;
+
 exports[`Header Component should render header without back button 1`] = `
 <RCTSafeAreaView
   accessibilityLabel="SafeAreaViewHeader"

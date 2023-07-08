@@ -9,7 +9,7 @@
     "test": "jest",
     "lint": "eslint .",
     "fix:lint": "eslint . --fix",
-    "test:coverage": "TZ='Asia/Jakarta' jest --expand --collectCoverage",
+    "test:coverage": "TZ='Asia/Jakarta' jest --expand --collectCoverage -u --runInBand --no-cache --forceExit",
     "test:view": "open coverage/lcov-report/index.html"
   },
   "dependencies": {
