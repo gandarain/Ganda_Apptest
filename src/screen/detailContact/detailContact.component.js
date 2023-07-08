@@ -34,10 +34,17 @@ export const deleteHandler = state => async () => {
   state.setLoader(true)
   try {
     await Service.delete(`contact/${state.id}`)
-  } finally {
     state.dispatch(setLoadingListContacts(true))
-    state.setLoader(false)
     state.navigation.goBack()
+  } catch (error) {
+    Alert.alert('Error', 'Error when delete the contact', [
+      {
+        text: 'OK',
+        onPress: () => {}
+      }
+    ])
+  } finally {
+    state.setLoader(false)
   }
 }
 

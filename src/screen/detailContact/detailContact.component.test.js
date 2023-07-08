@@ -88,23 +88,45 @@ describe('Detail Contact Component', () => {
     )
   })
 
-  it('should call correct state when deleteHandler return success', async () => {
-    const mockState = {
-      setLoader: jest.fn(),
-      dispatch: () => ({
-        setLoadingListContacts: jest.fn()
-      }),
-      navigation: {
-        goBack: jest.fn()
+  describe('deleteHandler', () => {
+    it('should call correct state when deleteHandler return success', async () => {
+      const mockState = {
+        setLoader: jest.fn(),
+        dispatch: () => ({
+          setLoadingListContacts: jest.fn()
+        }),
+        navigation: {
+          goBack: jest.fn()
+        }
       }
-    }
 
-    Service.delete.mockImplementation(() => Promise.resolve())
+      Service.delete.mockImplementation(() => Promise.resolve())
 
-    await deleteHandler(mockState)()
+      await deleteHandler(mockState)()
 
-    expect(mockState.setLoader).toHaveBeenCalledWith(false)
-    expect(mockState.navigation.goBack).toBeCalled()
+      expect(mockState.setLoader).toHaveBeenCalledWith(false)
+      expect(mockState.navigation.goBack).toBeCalled()
+    })
+
+    it('should call correct state when deleteHandler return error', async () => {
+      const mockState = {
+        setLoader: jest.fn(),
+        dispatch: () => ({
+          setLoadingListContacts: jest.fn()
+        }),
+        navigation: {
+          goBack: jest.fn()
+        }
+      }
+
+      Service.delete.mockImplementation(() => Promise.reject(new Error()))
+
+      await deleteHandler(mockState)()
+
+      Alert.alert.mock.calls[0][2][0].onPress()
+
+      expect(Alert.alert).toBeCalled()
+    })
   })
 
   it('should return correct value when deleteConfirmation', () => {

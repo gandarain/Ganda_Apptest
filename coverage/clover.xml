@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1688847812150" clover="3.2.0">
-  <project timestamp="1688847812151" name="All files">
-    <metrics statements="159" coveredstatements="158" conditionals="28" coveredconditionals="22" methods="61" coveredmethods="61" elements="248" coveredelements="241" complexity="0" loc="159" ncloc="159" packages="11" files="24" classes="24"/>
+<coverage generated="1688848343539" clover="3.2.0">
+  <project timestamp="1688848343539" name="All files">
+    <metrics statements="160" coveredstatements="159" conditionals="28" coveredconditionals="22" methods="62" coveredmethods="62" elements="250" coveredelements="243" complexity="0" loc="160" ncloc="160" packages="11" files="24" classes="24"/>
     <package name="component.buttonFull">
       <metrics statements="5" coveredstatements="5" conditionals="4" coveredconditionals="4" methods="3" coveredmethods="3"/>
       <file name="buttonFull.component.js" path="/Users/mac/Documents/Test/Jenius/Ganda_Apptest/src/component/buttonFull/buttonFull.component.js">
@@ -111,9 +111,9 @@
       </file>
     </package>
     <package name="screen.detailContact">
-      <metrics statements="48" coveredstatements="48" conditionals="4" coveredconditionals="3" methods="19" coveredmethods="19"/>
+      <metrics statements="49" coveredstatements="49" conditionals="4" coveredconditionals="3" methods="20" coveredmethods="20"/>
       <file name="detailContact.component.js" path="/Users/mac/Documents/Test/Jenius/Ganda_Apptest/src/screen/detailContact/detailContact.component.js">
-        <metrics statements="47" coveredstatements="47" conditionals="4" coveredconditionals="3" methods="19" coveredmethods="19"/>
+        <metrics statements="48" coveredstatements="48" conditionals="4" coveredconditionals="3" methods="20" coveredmethods="20"/>
         <line num="17" count="2" type="stmt"/>
         <line num="18" count="4" type="stmt"/>
         <line num="19" count="4" type="stmt"/>
@@ -124,43 +124,44 @@
         <line num="25" count="1" type="stmt"/>
         <line num="29" count="4" type="stmt"/>
         <line num="30" count="1" type="stmt"/>
-        <line num="33" count="3" type="stmt"/>
-        <line num="34" count="1" type="stmt"/>
-        <line num="35" count="1" type="stmt"/>
-        <line num="36" count="1" type="stmt"/>
+        <line num="33" count="4" type="stmt"/>
+        <line num="34" count="2" type="stmt"/>
+        <line num="35" count="2" type="stmt"/>
+        <line num="36" count="2" type="stmt"/>
+        <line num="37" count="1" type="stmt"/>
         <line num="38" count="1" type="stmt"/>
-        <line num="39" count="1" type="stmt"/>
         <line num="40" count="1" type="stmt"/>
-        <line num="44" count="5" type="stmt"/>
-        <line num="45" count="2" type="stmt"/>
-        <line num="61" count="2" type="stmt"/>
-        <line num="62" count="2" type="stmt"/>
-        <line num="72" count="2" type="stmt"/>
-        <line num="73" count="2" type="stmt"/>
-        <line num="83" count="2" type="stmt"/>
-        <line num="84" count="2" type="stmt"/>
-        <line num="94" count="2" type="stmt"/>
-        <line num="95" count="2" type="stmt"/>
+        <line num="47" count="2" type="stmt"/>
+        <line num="51" count="5" type="stmt"/>
+        <line num="52" count="2" type="stmt"/>
+        <line num="68" count="2" type="stmt"/>
+        <line num="69" count="2" type="stmt"/>
+        <line num="79" count="2" type="stmt"/>
+        <line num="80" count="2" type="stmt"/>
+        <line num="90" count="2" type="stmt"/>
+        <line num="91" count="2" type="stmt"/>
+        <line num="101" count="2" type="stmt"/>
         <line num="102" count="2" type="stmt"/>
-        <line num="103" count="3" type="stmt"/>
-        <line num="119" count="4" type="stmt"/>
-        <line num="120" count="1" type="stmt"/>
-        <line num="123" count="2" type="stmt"/>
-        <line num="124" count="3" type="stmt"/>
-        <line num="127" count="2" type="stmt"/>
-        <line num="128" count="3" type="stmt"/>
-        <line num="129" count="3" type="stmt"/>
-        <line num="130" count="3" type="stmt"/>
+        <line num="109" count="2" type="stmt"/>
+        <line num="110" count="3" type="stmt"/>
+        <line num="126" count="4" type="stmt"/>
+        <line num="127" count="1" type="stmt"/>
+        <line num="130" count="2" type="stmt"/>
         <line num="131" count="3" type="stmt"/>
-        <line num="132" count="3" type="stmt"/>
-        <line num="133" count="3" type="stmt"/>
+        <line num="134" count="2" type="stmt"/>
         <line num="135" count="3" type="stmt"/>
-        <line num="147" count="3" type="stmt"/>
-        <line num="148" count="2" type="stmt"/>
-        <line num="152" count="3" type="stmt"/>
+        <line num="136" count="3" type="stmt"/>
+        <line num="137" count="3" type="stmt"/>
+        <line num="138" count="3" type="stmt"/>
+        <line num="139" count="3" type="stmt"/>
+        <line num="140" count="3" type="stmt"/>
+        <line num="142" count="3" type="stmt"/>
+        <line num="154" count="3" type="stmt"/>
         <line num="155" count="2" type="stmt"/>
-        <line num="156" count="3" type="stmt"/>
-        <line num="158" count="3" type="stmt"/>
+        <line num="159" count="3" type="stmt"/>
+        <line num="162" count="2" type="stmt"/>
+        <line num="163" count="3" type="stmt"/>
+        <line num="165" count="3" type="stmt"/>
       </file>
       <file name="detailContact.component.styles.js" path="/Users/mac/Documents/Test/Jenius/Ganda_Apptest/src/screen/detailContact/detailContact.component.styles.js">
         <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
