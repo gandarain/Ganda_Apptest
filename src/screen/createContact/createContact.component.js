@@ -131,6 +131,15 @@ export const editConfirmation = (values, state) =>
   ])
 
 export const submitButtonHandler = (values, errors, state) => () => {
+  if (
+    values.photo === '' ||
+    values.firstName === '' ||
+    values.lastName === '' ||
+    values.age === ''
+  ) {
+    return false
+  }
+
   if (errors.photo || errors.firstName || errors.lastName || errors.age) {
     return false
   }

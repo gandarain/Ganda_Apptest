@@ -13,7 +13,7 @@ Before run this project, please make sure you are using the correct version, rea
 
 ### Result
 #### APK
-https://drive.google.com/file/d/1V4Nnpm67XW1z774C0myZLHTSyX-491wd/view?usp=sharing
+https://drive.google.com/file/d/1AGjXTtw1fRYYdtyfHxS0mKPBfzsDl93F/view?usp=sharing
 
 #### Unit test
 <img width="634" alt="Screen Shot 2023-07-09 at 20 07 32" src="https://github.com/gandarain/Ganda_Apptest/assets/27923352/25424be3-1f71-4dde-bc19-9f26ee09d4f5">
