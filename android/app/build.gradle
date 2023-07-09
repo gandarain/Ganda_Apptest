@@ -78,6 +78,8 @@ import org.apache.tools.ant.taskdefs.condition.Os
  * ]
  */
 
+apply from: project(':react-native-config').projectDir.getPath() + "/dotenv.gradle"
+
 project.ext.react = [
     enableHermes: false,  // clean and rebuild if changing
 ]
