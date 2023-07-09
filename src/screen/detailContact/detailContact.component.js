@@ -27,7 +27,14 @@ export const getContactHandler = async state => {
 }
 
 export const navigateToCreateContact = state => () => {
-  state.navigation.navigate(Routes.CreateContact)
+  state.navigation.navigate(Routes.CreateContact, {
+    isEdit: true,
+    id: state.contact.id,
+    photo: state.contact.photo,
+    firstName: state.contact.firstName,
+    lastName: state.contact.lastName,
+    age: state.contact.age
+  })
 }
 
 export const deleteHandler = state => async () => {

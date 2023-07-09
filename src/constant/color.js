@@ -4,7 +4,8 @@ const color = {
   black: '#000000',
   white: '#FFFFFF',
   background: '#F4F4F4',
-  border: '#EEEEEE'
+  border: '#EEEEEE',
+  error: '#FF3333'
 }
 
 export default color

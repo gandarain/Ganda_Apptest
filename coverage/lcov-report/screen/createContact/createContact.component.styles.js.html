@@ -3,7 +3,7 @@
 <html lang="en">
 
 <head>
-    <title>Code coverage report for component/header/header.component.styles.js</title>
+    <title>Code coverage report for screen/createContact/createContact.component.styles.js</title>
     <meta charset="utf-8" />
     <link rel="stylesheet" href="../../prettify.css" />
     <link rel="stylesheet" href="../../base.css" />
@@ -19,7 +19,7 @@
 <body>
 <div class='wrapper'>
     <div class='pad1'>
-        <h1><a href="../../index.html">All files</a> / <a href="index.html">component/header</a> header.component.styles.js</h1>
+        <h1><a href="../../index.html">All files</a> / <a href="index.html">screen/createContact</a> createContact.component.styles.js</h1>
         <div class='clearfix'>
             
             <div class='fl pad1y space-right2'>
@@ -30,9 +30,9 @@
         
             
             <div class='fl pad1y space-right2'>
-                <span class="strong">50% </span>
+                <span class="strong">100% </span>
                 <span class="quiet">Branches</span>
-                <span class='fraction'>2/4</span>
+                <span class='fraction'>0/0</span>
             </div>
         
             
@@ -118,7 +118,15 @@
 <a name='L53'></a><a href='#L53'>53</a>
 <a name='L54'></a><a href='#L54'>54</a>
 <a name='L55'></a><a href='#L55'>55</a>
-<a name='L56'></a><a href='#L56'>56</a></td><td class="line-coverage quiet"><span class="cline-any cline-neutral">&nbsp;</span>
+<a name='L56'></a><a href='#L56'>56</a>
+<a name='L57'></a><a href='#L57'>57</a>
+<a name='L58'></a><a href='#L58'>58</a>
+<a name='L59'></a><a href='#L59'>59</a>
+<a name='L60'></a><a href='#L60'>60</a>
+<a name='L61'></a><a href='#L61'>61</a>
+<a name='L62'></a><a href='#L62'>62</a>
+<a name='L63'></a><a href='#L63'>63</a>
+<a name='L64'></a><a href='#L64'>64</a></td><td class="line-coverage quiet"><span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
@@ -173,57 +181,73 @@
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span></td><td class="text"><pre class="prettyprint lang-js">import { StyleSheet, Platform, StatusBar } from 'react-native'
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span></td><td class="text"><pre class="prettyprint lang-js">import { StyleSheet } from 'react-native'
 &nbsp;
-import { fontFamily, fontSize, iconSize } from '../../constant/font'
+import { fontFamily, fontSize } from '../../constant/font'
 import color from '../../constant/color'
 &nbsp;
 const styles = StyleSheet.create({
-  containerSafeArea: {
-    backgroundColor: color.theme
-  },
   container: {
-    backgroundColor: color.theme,
-    flexDirection: 'row',
-    paddingHorizontal: 10,
-    paddingVertical: 20,
+    flex: 1,
+    backgroundColor: color.white
+  },
+  image: {
     width: '100%',
-    justifyContent: 'space-between',
-    alignItems: 'center',
-    marginTop: Platform.OS === 'android' ? <span class="branch-0 cbranch-no" title="branch not covered" >StatusBar.currentHeight </span>: 0
+    height: 300
   },
-  statusBar: {
-    barStyle: Platform.OS === 'android' ? <span class="branch-0 cbranch-no" title="branch not covered" >'light-content' </span>: 'dark-content',
-    backgroundColor: color.theme
+  content: {
+    paddingBottom: 50
   },
-  leftContainer: {
-    width: '15%'
+  formFieldContainer: {
+    margin: 15
   },
-  leftIcon: {
-    size: iconSize.BIG,
-    color: color.white
+  title: {
+    fontFamily: fontFamily.BOLD,
+    fontSize: fontSize.MEDIUM,
+    color: color.font,
+    marginBottom: 10
   },
-  bodyContainer: {
-    width: '70%',
+  textInput: {
+    fontFamily: fontFamily.REGULAR,
+    fontSize: fontSize.MEDIUM,
+    color: color.font,
+    borderBottomWidth: 1,
+    borderBottomColor: color.border,
+    paddingBottom: 10
+  },
+  containerButton: {
+    borderTopColor: color.border,
+    borderTopWidth: 1,
+    padding: 15
+  },
+  button: {
+    backgroundColor: color.theme,
+    padding: 15,
+    borderRadius: 8,
+    justifyContent: 'center',
     alignItems: 'center'
   },
-  textBody: {
-    color: color.white,
-    fontSize: fontSize.BIG,
-    fontFamily: fontFamily.BOLD
-  },
-  textSubBody: {
-    color: color.white,
+  textButton: {
+    fontFamily: fontFamily.BOLD,
     fontSize: fontSize.MEDIUM,
-    fontFamily: fontFamily.REGULAR,
-    textAlign: 'center'
+    color: color.white
   },
-  rightContainer: {
-    width: '15%',
-    alignItems: 'flex-end'
+  containerErrorText: {
+    width: '100%',
+    marginHorizontal: 15
   },
-  rightContent: {
-    flexDirection: 'row'
+  textError: {
+    fontFamily: fontFamily.SEMI_BOLD,
+    fontSize: fontSize.SMALL,
+    color: color.error
   }
 })
 &nbsp;

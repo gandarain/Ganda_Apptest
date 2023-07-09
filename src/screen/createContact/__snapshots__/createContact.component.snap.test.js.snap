@@ -1,0 +1,410 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Detail Contact Component should render create contact 1`] = `
+<View
+  accessibilityLabel="ContainerContact"
+  style={
+    {
+      "backgroundColor": "#FFFFFF",
+      "flex": 1,
+    }
+  }
+>
+  <Header
+    right={[]}
+    showBackButton={true}
+    title="Create Contact"
+  />
+  <Formik
+    enableReinitialize={true}
+    initialValues={
+      {
+        "age": "",
+        "firstName": "",
+        "lastName": "",
+        "photo": "",
+      }
+    }
+    validationSchema={
+      ObjectSchema {
+        "_blacklist": Set {},
+        "_excludedEdges": [],
+        "_mutate": undefined,
+        "_nodes": [
+          "age",
+          "lastName",
+          "firstName",
+          "photo",
+        ],
+        "_sortErrors": [Function],
+        "_typeCheck": [Function],
+        "_whitelist": Set {},
+        "conditions": [],
+        "deps": [],
+        "exclusiveTests": {},
+        "fields": {
+          "age": StringSchema {
+            "_blacklist": Set {},
+            "_typeCheck": [Function],
+            "_whitelist": Set {},
+            "conditions": [],
+            "deps": [],
+            "exclusiveTests": {
+              "matches": false,
+              "required": false,
+            },
+            "internalTests": {
+              "nullable": [Function],
+              "optionality": [Function],
+              "typeError": [Function],
+            },
+            "spec": {
+              "abortEarly": true,
+              "coerce": true,
+              "nullable": false,
+              "optional": false,
+              "recursive": true,
+              "strict": false,
+              "strip": false,
+            },
+            "tests": [
+              [Function],
+              [Function],
+            ],
+            "transforms": [
+              [Function],
+            ],
+            "type": "string",
+          },
+          "firstName": StringSchema {
+            "_blacklist": Set {},
+            "_typeCheck": [Function],
+            "_whitelist": Set {},
+            "conditions": [],
+            "deps": [],
+            "exclusiveTests": {
+              "matches": false,
+              "required": false,
+            },
+            "internalTests": {
+              "nullable": [Function],
+              "optionality": [Function],
+              "typeError": [Function],
+            },
+            "spec": {
+              "abortEarly": true,
+              "coerce": true,
+              "nullable": false,
+              "optional": false,
+              "recursive": true,
+              "strict": false,
+              "strip": false,
+            },
+            "tests": [
+              [Function],
+              [Function],
+            ],
+            "transforms": [
+              [Function],
+            ],
+            "type": "string",
+          },
+          "lastName": StringSchema {
+            "_blacklist": Set {},
+            "_typeCheck": [Function],
+            "_whitelist": Set {},
+            "conditions": [],
+            "deps": [],
+            "exclusiveTests": {
+              "matches": false,
+              "required": false,
+            },
+            "internalTests": {
+              "nullable": [Function],
+              "optionality": [Function],
+              "typeError": [Function],
+            },
+            "spec": {
+              "abortEarly": true,
+              "coerce": true,
+              "nullable": false,
+              "optional": false,
+              "recursive": true,
+              "strict": false,
+              "strip": false,
+            },
+            "tests": [
+              [Function],
+              [Function],
+            ],
+            "transforms": [
+              [Function],
+            ],
+            "type": "string",
+          },
+          "photo": StringSchema {
+            "_blacklist": Set {},
+            "_mutate": undefined,
+            "_typeCheck": [Function],
+            "_whitelist": Set {},
+            "conditions": [],
+            "deps": [],
+            "exclusiveTests": {
+              "required": false,
+            },
+            "internalTests": {
+              "nullable": [Function],
+              "optionality": [Function],
+              "typeError": [Function],
+            },
+            "spec": {
+              "abortEarly": true,
+              "coerce": true,
+              "nullable": false,
+              "optional": false,
+              "recursive": true,
+              "strict": false,
+              "strip": false,
+            },
+            "tests": [
+              [Function],
+            ],
+            "transforms": [
+              [Function],
+            ],
+            "type": "string",
+          },
+        },
+        "internalTests": {
+          "nullable": [Function],
+          "typeError": [Function],
+        },
+        "spec": {
+          "abortEarly": true,
+          "coerce": true,
+          "nullable": false,
+          "optional": true,
+          "recursive": true,
+          "strict": false,
+          "strip": false,
+        },
+        "tests": [],
+        "transforms": [],
+        "type": "object",
+      }
+    }
+  />
+  <Loader
+    onClose={[Function]}
+    visible={false}
+  />
+</View>
+`;
+
+exports[`Detail Contact Component should render edit contact 1`] = `
+<View
+  accessibilityLabel="ContainerContact"
+  style={
+    {
+      "backgroundColor": "#FFFFFF",
+      "flex": 1,
+    }
+  }
+>
+  <Header
+    right={
+      [
+        {
+          "action": [Function],
+          "icon": "delete-outline",
+        },
+      ]
+    }
+    showBackButton={true}
+    title="Edit Contact"
+  />
+  <Formik
+    enableReinitialize={true}
+    initialValues={
+      {
+        "age": "111",
+        "firstName": "Bilbo",
+        "lastName": "Baggins",
+        "photo": "http://vignette1.wikia.nocookie.net/lotr/images/6/68/Bilbo_baggins.jpg/revision/latest?cb=20130202022550",
+      }
+    }
+    validationSchema={
+      ObjectSchema {
+        "_blacklist": Set {},
+        "_excludedEdges": [],
+        "_mutate": undefined,
+        "_nodes": [
+          "age",
+          "lastName",
+          "firstName",
+          "photo",
+        ],
+        "_sortErrors": [Function],
+        "_typeCheck": [Function],
+        "_whitelist": Set {},
+        "conditions": [],
+        "deps": [],
+        "exclusiveTests": {},
+        "fields": {
+          "age": StringSchema {
+            "_blacklist": Set {},
+            "_typeCheck": [Function],
+            "_whitelist": Set {},
+            "conditions": [],
+            "deps": [],
+            "exclusiveTests": {
+              "matches": false,
+              "required": false,
+            },
+            "internalTests": {
+              "nullable": [Function],
+              "optionality": [Function],
+              "typeError": [Function],
+            },
+            "spec": {
+              "abortEarly": true,
+              "coerce": true,
+              "nullable": false,
+              "optional": false,
+              "recursive": true,
+              "strict": false,
+              "strip": false,
+            },
+            "tests": [
+              [Function],
+              [Function],
+            ],
+            "transforms": [
+              [Function],
+            ],
+            "type": "string",
+          },
+          "firstName": StringSchema {
+            "_blacklist": Set {},
+            "_typeCheck": [Function],
+            "_whitelist": Set {},
+            "conditions": [],
+            "deps": [],
+            "exclusiveTests": {
+              "matches": false,
+              "required": false,
+            },
+            "internalTests": {
+              "nullable": [Function],
+              "optionality": [Function],
+              "typeError": [Function],
+            },
+            "spec": {
+              "abortEarly": true,
+              "coerce": true,
+              "nullable": false,
+              "optional": false,
+              "recursive": true,
+              "strict": false,
+              "strip": false,
+            },
+            "tests": [
+              [Function],
+              [Function],
+            ],
+            "transforms": [
+              [Function],
+            ],
+            "type": "string",
+          },
+          "lastName": StringSchema {
+            "_blacklist": Set {},
+            "_typeCheck": [Function],
+            "_whitelist": Set {},
+            "conditions": [],
+            "deps": [],
+            "exclusiveTests": {
+              "matches": false,
+              "required": false,
+            },
+            "internalTests": {
+              "nullable": [Function],
+              "optionality": [Function],
+              "typeError": [Function],
+            },
+            "spec": {
+              "abortEarly": true,
+              "coerce": true,
+              "nullable": false,
+              "optional": false,
+              "recursive": true,
+              "strict": false,
+              "strip": false,
+            },
+            "tests": [
+              [Function],
+              [Function],
+            ],
+            "transforms": [
+              [Function],
+            ],
+            "type": "string",
+          },
+          "photo": StringSchema {
+            "_blacklist": Set {},
+            "_mutate": undefined,
+            "_typeCheck": [Function],
+            "_whitelist": Set {},
+            "conditions": [],
+            "deps": [],
+            "exclusiveTests": {
+              "required": false,
+            },
+            "internalTests": {
+              "nullable": [Function],
+              "optionality": [Function],
+              "typeError": [Function],
+            },
+            "spec": {
+              "abortEarly": true,
+              "coerce": true,
+              "nullable": false,
+              "optional": false,
+              "recursive": true,
+              "strict": false,
+              "strip": false,
+            },
+            "tests": [
+              [Function],
+            ],
+            "transforms": [
+              [Function],
+            ],
+            "type": "string",
+          },
+        },
+        "internalTests": {
+          "nullable": [Function],
+          "typeError": [Function],
+        },
+        "spec": {
+          "abortEarly": true,
+          "coerce": true,
+          "nullable": false,
+          "optional": true,
+          "recursive": true,
+          "strict": false,
+          "strip": false,
+        },
+        "tests": [],
+        "transforms": [],
+        "type": "object",
+      }
+    }
+  />
+  <Loader
+    onClose={[Function]}
+    visible={false}
+  />
+</View>
+`;

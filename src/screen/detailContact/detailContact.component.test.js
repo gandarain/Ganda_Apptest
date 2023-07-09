@@ -78,13 +78,22 @@ describe('Detail Contact Component', () => {
     const mockState = {
       navigation: {
         navigate: jest.fn()
-      }
+      },
+      contact: mockContact.data.data
     }
 
     navigateToCreateContact(mockState)()
 
     expect(mockState.navigation.navigate).toHaveBeenCalledWith(
-      Routes.CreateContact
+      Routes.CreateContact,
+      {
+        isEdit: true,
+        id: mockState.contact.id,
+        photo: mockState.contact.photo,
+        firstName: mockState.contact.firstName,
+        lastName: mockState.contact.lastName,
+        age: mockState.contact.age
+      }
     )
   })
 
