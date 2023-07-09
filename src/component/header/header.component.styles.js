@@ -46,6 +46,9 @@ const styles = StyleSheet.create({
   rightContainer: {
     width: '15%',
     alignItems: 'flex-end'
+  },
+  rightContent: {
+    flexDirection: 'row'
   }
 })
 

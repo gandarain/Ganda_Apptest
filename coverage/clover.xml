@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1688722881610" clover="3.2.0">
-  <project timestamp="1688722881610" name="All files">
-    <metrics statements="26" coveredstatements="26" conditionals="10" coveredconditionals="8" methods="11" coveredmethods="11" elements="47" coveredelements="45" complexity="0" loc="26" ncloc="26" packages="4" files="8" classes="8"/>
+<coverage generated="1688894424170" clover="3.2.0">
+  <project timestamp="1688894424170" name="All files">
+    <metrics statements="238" coveredstatements="227" conditionals="58" coveredconditionals="34" methods="95" coveredmethods="87" elements="391" coveredelements="348" complexity="0" loc="238" ncloc="238" packages="15" files="30" classes="30"/>
     <package name="component.buttonFull">
       <metrics statements="5" coveredstatements="5" conditionals="4" coveredconditionals="4" methods="3" coveredmethods="3"/>
       <file name="buttonFull.component.js" path="/Users/mac/Documents/Test/Jenius/Ganda_Apptest/src/component/buttonFull/buttonFull.component.js">
@@ -17,51 +17,362 @@
       </file>
     </package>
     <package name="component.header">
-      <metrics statements="14" coveredstatements="14" conditionals="6" coveredconditionals="4" methods="7" coveredmethods="7"/>
+      <metrics statements="20" coveredstatements="20" conditionals="8" coveredconditionals="6" methods="10" coveredmethods="10"/>
       <file name="header.component.js" path="/Users/mac/Documents/Test/Jenius/Ganda_Apptest/src/component/header/header.component.js">
-        <metrics statements="13" coveredstatements="13" conditionals="2" coveredconditionals="2" methods="7" coveredmethods="7"/>
-        <line num="14" count="2" type="stmt"/>
-        <line num="15" count="1" type="stmt"/>
-        <line num="18" count="1" type="stmt"/>
-        <line num="19" count="1" type="stmt"/>
-        <line num="32" count="1" type="stmt"/>
+        <metrics statements="19" coveredstatements="19" conditionals="4" coveredconditionals="4" methods="10" coveredmethods="10"/>
+        <line num="15" count="3" type="stmt"/>
+        <line num="16" count="1" type="stmt"/>
+        <line num="19" count="2" type="stmt"/>
+        <line num="20" count="2" type="stmt"/>
         <line num="33" count="2" type="stmt"/>
-        <line num="42" count="1" type="stmt"/>
+        <line num="34" count="3" type="stmt"/>
         <line num="43" count="2" type="stmt"/>
-        <line num="48" count="1" type="stmt"/>
+        <line num="44" count="3" type="stmt"/>
         <line num="49" count="2" type="stmt"/>
-        <line num="62" count="1" type="stmt"/>
+        <line num="50" count="3" type="stmt"/>
         <line num="63" count="2" type="stmt"/>
-        <line num="65" count="2" type="stmt"/>
+        <line num="64" count="1" type="stmt"/>
+        <line num="66" count="1" type="stmt"/>
+        <line num="82" count="2" type="stmt"/>
+        <line num="83" count="3" type="stmt"/>
+        <line num="85" count="3" type="stmt"/>
+        <line num="92" count="2" type="stmt"/>
+        <line num="93" count="3" type="stmt"/>
+        <line num="95" count="3" type="stmt"/>
       </file>
       <file name="header.component.styles.js" path="/Users/mac/Documents/Test/Jenius/Ganda_Apptest/src/component/header/header.component.styles.js">
         <metrics statements="1" coveredstatements="1" conditionals="4" coveredconditionals="2" methods="0" coveredmethods="0"/>
-        <line num="6" count="1" type="stmt"/>
+        <line num="6" count="2" type="stmt"/>
+      </file>
+    </package>
+    <package name="component.loader">
+      <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+      <file name="loader.component.js" path="/Users/mac/Documents/Test/Jenius/Ganda_Apptest/src/component/loader/loader.component.js">
+        <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="8" count="1" type="stmt"/>
+        <line num="9" count="2" type="stmt"/>
+      </file>
+      <file name="loader.component.styles.js" path="/Users/mac/Documents/Test/Jenius/Ganda_Apptest/src/component/loader/loader.component.styles.js">
+        <metrics statements="0" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
       </file>
     </package>
     <package name="component.loading">
       <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+      <file name="index.js" path="/Users/mac/Documents/Test/Jenius/Ganda_Apptest/src/component/loading/index.js">
+        <metrics statements="0" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+      </file>
       <file name="loading.component.js" path="/Users/mac/Documents/Test/Jenius/Ganda_Apptest/src/component/loading/loading.component.js">
         <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
-        <line num="6" count="1" type="stmt"/>
-        <line num="7" count="1" type="stmt"/>
+        <line num="6" count="3" type="stmt"/>
+        <line num="7" count="2" type="stmt"/>
       </file>
       <file name="loading.component.styles.js" path="/Users/mac/Documents/Test/Jenius/Ganda_Apptest/src/component/loading/loading.component.styles.js">
         <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
-        <line num="5" count="1" type="stmt"/>
+        <line num="5" count="3" type="stmt"/>
       </file>
     </package>
     <package name="constant">
-      <metrics statements="4" coveredstatements="4" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+      <metrics statements="6" coveredstatements="6" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
       <file name="color.js" path="/Users/mac/Documents/Test/Jenius/Ganda_Apptest/src/constant/color.js">
         <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
-        <line num="1" count="3" type="stmt"/>
+        <line num="1" count="15" type="stmt"/>
       </file>
       <file name="font.js" path="/Users/mac/Documents/Test/Jenius/Ganda_Apptest/src/constant/font.js">
         <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="1" count="11" type="stmt"/>
+        <line num="8" count="11" type="stmt"/>
+        <line num="14" count="11" type="stmt"/>
+      </file>
+      <file name="image.js" path="/Users/mac/Documents/Test/Jenius/Ganda_Apptest/src/constant/image.js">
+        <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="1" count="6" type="stmt"/>
+        <line num="3" count="6" type="stmt"/>
+      </file>
+    </package>
+    <package name="fixture">
+      <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+      <file name="index.js" path="/Users/mac/Documents/Test/Jenius/Ganda_Apptest/src/fixture/index.js">
+        <metrics statements="0" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+      </file>
+      <file name="mockContact.js" path="/Users/mac/Documents/Test/Jenius/Ganda_Apptest/src/fixture/mockContact.js">
+        <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="1" count="7" type="stmt"/>
+      </file>
+      <file name="mockContacts.js" path="/Users/mac/Documents/Test/Jenius/Ganda_Apptest/src/fixture/mockContacts.js">
+        <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="1" count="7" type="stmt"/>
+      </file>
+    </package>
+    <package name="navigation">
+      <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+      <file name="routes.js" path="/Users/mac/Documents/Test/Jenius/Ganda_Apptest/src/navigation/routes.js">
+        <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="1" count="10" type="stmt"/>
+      </file>
+    </package>
+    <package name="redux.action">
+      <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+      <file name="listContactsActions.js" path="/Users/mac/Documents/Test/Jenius/Ganda_Apptest/src/redux/action/listContactsActions.js">
+        <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="3" count="2" type="stmt"/>
+        <line num="4" count="3" type="stmt"/>
+      </file>
+    </package>
+    <package name="redux.types">
+      <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+      <file name="index.js" path="/Users/mac/Documents/Test/Jenius/Ganda_Apptest/src/redux/types/index.js">
+        <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
         <line num="1" count="2" type="stmt"/>
-        <line num="8" count="2" type="stmt"/>
-        <line num="14" count="2" type="stmt"/>
+      </file>
+    </package>
+    <package name="screen.createContact">
+      <metrics statements="74" coveredstatements="64" conditionals="30" coveredconditionals="12" methods="32" coveredmethods="24"/>
+      <file name="createContact.component.js" path="/Users/mac/Documents/Test/Jenius/Ganda_Apptest/src/screen/createContact/createContact.component.js">
+        <metrics statements="71" coveredstatements="61" conditionals="30" coveredconditionals="12" methods="32" coveredmethods="24"/>
+        <line num="30" count="4" type="stmt"/>
+        <line num="31" count="3" type="stmt"/>
+        <line num="32" count="3" type="stmt"/>
+        <line num="33" count="3" type="stmt"/>
+        <line num="34" count="1" type="stmt"/>
+        <line num="35" count="1" type="stmt"/>
+        <line num="37" count="2" type="stmt"/>
+        <line num="44" count="3" type="stmt"/>
+        <line num="48" count="3" type="stmt"/>
+        <line num="49" count="2" type="stmt"/>
+        <line num="65" count="5" type="stmt"/>
+        <line num="66" count="3" type="stmt"/>
+        <line num="67" count="3" type="stmt"/>
+        <line num="68" count="3" type="stmt"/>
+        <line num="69" count="3" type="stmt"/>
+        <line num="70" count="1" type="stmt"/>
+        <line num="71" count="1" type="stmt"/>
+        <line num="73" count="2" type="stmt"/>
+        <line num="80" count="3" type="stmt"/>
+        <line num="84" count="2" type="stmt"/>
+        <line num="85" count="3" type="stmt"/>
+        <line num="101" count="5" type="stmt"/>
+        <line num="102" count="3" type="stmt"/>
+        <line num="103" count="3" type="stmt"/>
+        <line num="104" count="3" type="stmt"/>
+        <line num="105" count="3" type="stmt"/>
+        <line num="106" count="1" type="stmt"/>
+        <line num="107" count="1" type="stmt"/>
+        <line num="109" count="1" type="stmt"/>
+        <line num="116" count="2" type="stmt"/>
+        <line num="120" count="2" type="stmt"/>
+        <line num="121" count="3" type="stmt"/>
+        <line num="133" count="3" type="stmt"/>
+        <line num="134" count="3" type="cond" truecount="6" falsecount="0"/>
+        <line num="135" count="1" type="stmt"/>
+        <line num="138" count="2" type="cond" truecount="2" falsecount="0"/>
+        <line num="139" count="1" type="stmt"/>
+        <line num="142" count="1" type="stmt"/>
+        <line num="145" count="2" type="stmt"/>
+        <line num="146" count="0" type="stmt"/>
+        <line num="157" count="2" type="stmt"/>
+        <line num="158" count="0" type="stmt"/>
+        <line num="163" count="2" type="stmt"/>
+        <line num="164" count="0" type="stmt"/>
+        <line num="182" count="2" type="stmt"/>
+        <line num="183" count="0" type="stmt"/>
+        <line num="197" count="0" type="stmt"/>
+        <line num="198" count="0" type="stmt"/>
+        <line num="199" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="200" count="0" type="stmt"/>
+        <line num="205" count="2" type="stmt"/>
+        <line num="206" count="0" type="stmt"/>
+        <line num="225" count="2" type="stmt"/>
+        <line num="226" count="3" type="stmt"/>
+        <line num="232" count="0" type="stmt"/>
+        <line num="270" count="4" type="stmt"/>
+        <line num="271" count="1" type="stmt"/>
+        <line num="274" count="2" type="stmt"/>
+        <line num="275" count="3" type="stmt"/>
+        <line num="278" count="2" type="stmt"/>
+        <line num="279" count="3" type="stmt"/>
+        <line num="285" count="3" type="stmt"/>
+        <line num="286" count="3" type="stmt"/>
+        <line num="287" count="3" type="stmt"/>
+        <line num="288" count="3" type="stmt"/>
+        <line num="289" count="3" type="stmt"/>
+        <line num="291" count="3" type="stmt"/>
+        <line num="302" count="3" type="stmt"/>
+        <line num="305" count="2" type="stmt"/>
+        <line num="306" count="3" type="stmt"/>
+        <line num="308" count="3" type="stmt"/>
+      </file>
+      <file name="createContact.component.styles.js" path="/Users/mac/Documents/Test/Jenius/Ganda_Apptest/src/screen/createContact/createContact.component.styles.js">
+        <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="6" count="2" type="stmt"/>
+      </file>
+      <file name="validationSchemaCreateContact.js" path="/Users/mac/Documents/Test/Jenius/Ganda_Apptest/src/screen/createContact/validationSchemaCreateContact.js">
+        <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="3" count="2" type="stmt"/>
+        <line num="10" count="2" type="stmt"/>
+      </file>
+    </package>
+    <package name="screen.detailContact">
+      <metrics statements="49" coveredstatements="49" conditionals="4" coveredconditionals="3" methods="20" coveredmethods="20"/>
+      <file name="detailContact.component.js" path="/Users/mac/Documents/Test/Jenius/Ganda_Apptest/src/screen/detailContact/detailContact.component.js">
+        <metrics statements="48" coveredstatements="48" conditionals="4" coveredconditionals="3" methods="20" coveredmethods="20"/>
+        <line num="17" count="2" type="stmt"/>
+        <line num="18" count="4" type="stmt"/>
+        <line num="19" count="4" type="stmt"/>
+        <line num="20" count="1" type="stmt"/>
+        <line num="21" count="1" type="stmt"/>
+        <line num="22" count="1" type="stmt"/>
+        <line num="24" count="1" type="stmt"/>
+        <line num="25" count="1" type="stmt"/>
+        <line num="29" count="4" type="stmt"/>
+        <line num="30" count="1" type="stmt"/>
+        <line num="40" count="4" type="stmt"/>
+        <line num="41" count="2" type="stmt"/>
+        <line num="42" count="2" type="stmt"/>
+        <line num="43" count="2" type="stmt"/>
+        <line num="44" count="1" type="stmt"/>
+        <line num="45" count="1" type="stmt"/>
+        <line num="47" count="1" type="stmt"/>
+        <line num="54" count="2" type="stmt"/>
+        <line num="58" count="5" type="stmt"/>
+        <line num="59" count="2" type="stmt"/>
+        <line num="75" count="2" type="stmt"/>
+        <line num="76" count="2" type="stmt"/>
+        <line num="86" count="2" type="stmt"/>
+        <line num="87" count="2" type="stmt"/>
+        <line num="97" count="2" type="stmt"/>
+        <line num="98" count="2" type="stmt"/>
+        <line num="108" count="2" type="stmt"/>
+        <line num="109" count="2" type="stmt"/>
+        <line num="116" count="2" type="stmt"/>
+        <line num="117" count="3" type="stmt"/>
+        <line num="133" count="4" type="stmt"/>
+        <line num="134" count="1" type="stmt"/>
+        <line num="137" count="2" type="stmt"/>
+        <line num="138" count="3" type="stmt"/>
+        <line num="141" count="2" type="stmt"/>
+        <line num="142" count="3" type="stmt"/>
+        <line num="143" count="3" type="stmt"/>
+        <line num="144" count="3" type="stmt"/>
+        <line num="145" count="3" type="stmt"/>
+        <line num="146" count="3" type="stmt"/>
+        <line num="147" count="3" type="stmt"/>
+        <line num="149" count="3" type="stmt"/>
+        <line num="161" count="3" type="stmt"/>
+        <line num="162" count="2" type="stmt"/>
+        <line num="166" count="3" type="stmt"/>
+        <line num="169" count="2" type="stmt"/>
+        <line num="170" count="3" type="stmt"/>
+        <line num="172" count="3" type="stmt"/>
+      </file>
+      <file name="detailContact.component.styles.js" path="/Users/mac/Documents/Test/Jenius/Ganda_Apptest/src/screen/detailContact/detailContact.component.styles.js">
+        <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="6" count="2" type="stmt"/>
+      </file>
+    </package>
+    <package name="screen.listContact">
+      <metrics statements="41" coveredstatements="40" conditionals="8" coveredconditionals="7" methods="14" coveredmethods="14"/>
+      <file name="listContact.component.js" path="/Users/mac/Documents/Test/Jenius/Ganda_Apptest/src/screen/listContact/listContact.component.js">
+        <metrics statements="40" coveredstatements="39" conditionals="8" coveredconditionals="7" methods="14" coveredmethods="14"/>
+        <line num="16" count="2" type="stmt"/>
+        <line num="17" count="5" type="stmt"/>
+        <line num="18" count="5" type="stmt"/>
+        <line num="19" count="1" type="stmt"/>
+        <line num="20" count="1" type="stmt"/>
+        <line num="21" count="1" type="stmt"/>
+        <line num="22" count="1" type="stmt"/>
+        <line num="24" count="1" type="stmt"/>
+        <line num="25" count="1" type="stmt"/>
+        <line num="26" count="1" type="stmt"/>
+        <line num="30" count="4" type="stmt"/>
+        <line num="31" count="1" type="stmt"/>
+        <line num="34" count="3" type="stmt"/>
+        <line num="35" count="1" type="stmt"/>
+        <line num="36" count="1" type="stmt"/>
+        <line num="37" count="1" type="stmt"/>
+        <line num="41" count="2" type="stmt"/>
+        <line num="42" count="3" type="stmt"/>
+        <line num="43" count="1" type="stmt"/>
+        <line num="45" count="2" type="stmt"/>
+        <line num="46" count="2" type="stmt"/>
+        <line num="55" count="2" type="stmt"/>
+        <line num="56" count="3" type="stmt"/>
+        <line num="67" count="2" type="stmt"/>
+        <line num="68" count="3" type="stmt"/>
+        <line num="69" count="3" type="stmt"/>
+        <line num="70" count="3" type="stmt"/>
+        <line num="71" count="3" type="stmt"/>
+        <line num="72" count="3" type="stmt"/>
+        <line num="73" count="3" type="stmt"/>
+        <line num="76" count="3" type="stmt"/>
+        <line num="86" count="3" type="stmt"/>
+        <line num="87" count="2" type="stmt"/>
+        <line num="91" count="3" type="stmt"/>
+        <line num="92" count="2" type="cond" truecount="1" falsecount="1"/>
+        <line num="93" count="0" type="stmt"/>
+        <line num="98" count="3" type="stmt"/>
+        <line num="101" count="2" type="stmt"/>
+        <line num="102" count="3" type="stmt"/>
+        <line num="104" count="3" type="stmt"/>
+      </file>
+      <file name="listContact.component.styles.js" path="/Users/mac/Documents/Test/Jenius/Ganda_Apptest/src/screen/listContact/listContact.component.styles.js">
+        <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="5" count="2" type="stmt"/>
+      </file>
+    </package>
+    <package name="screen.listContact.contact">
+      <metrics statements="18" coveredstatements="18" conditionals="4" coveredconditionals="2" methods="8" coveredmethods="8"/>
+      <file name="contact.component.js" path="/Users/mac/Documents/Test/Jenius/Ganda_Apptest/src/screen/listContact/contact/contact.component.js">
+        <metrics statements="17" coveredstatements="17" conditionals="2" coveredconditionals="1" methods="8" coveredmethods="8"/>
+        <line num="11" count="2" type="stmt"/>
+        <line num="12" count="1" type="stmt"/>
+        <line num="20" count="2" type="stmt"/>
+        <line num="21" count="1" type="stmt"/>
+        <line num="31" count="2" type="stmt"/>
+        <line num="32" count="1" type="stmt"/>
+        <line num="39" count="2" type="stmt"/>
+        <line num="40" count="1" type="stmt"/>
+        <line num="46" count="2" type="stmt"/>
+        <line num="47" count="1" type="stmt"/>
+        <line num="52" count="2" type="stmt"/>
+        <line num="53" count="1" type="stmt"/>
+        <line num="55" count="1" type="stmt"/>
+        <line num="59" count="1" type="stmt"/>
+        <line num="62" count="2" type="stmt"/>
+        <line num="63" count="1" type="stmt"/>
+        <line num="65" count="1" type="stmt"/>
+      </file>
+      <file name="contact.component.styles.js" path="/Users/mac/Documents/Test/Jenius/Ganda_Apptest/src/screen/listContact/contact/contact.component.styles.js">
+        <metrics statements="1" coveredstatements="1" conditionals="2" coveredconditionals="1" methods="0" coveredmethods="0"/>
+        <line num="6" count="2" type="stmt"/>
+      </file>
+    </package>
+    <package name="screen.splash">
+      <metrics statements="13" coveredstatements="13" conditionals="0" coveredconditionals="0" methods="5" coveredmethods="5"/>
+      <file name="splash.component.js" path="/Users/mac/Documents/Test/Jenius/Ganda_Apptest/src/screen/splash/splash.component.js">
+        <metrics statements="12" coveredstatements="12" conditionals="0" coveredconditionals="0" methods="5" coveredmethods="5"/>
+        <line num="10" count="2" type="stmt"/>
+        <line num="12" count="2" type="stmt"/>
+        <line num="13" count="2" type="stmt"/>
+        <line num="14" count="1" type="stmt"/>
+        <line num="18" count="2" type="stmt"/>
+        <line num="19" count="1" type="stmt"/>
+        <line num="21" count="1" type="stmt"/>
+        <line num="25" count="1" type="stmt"/>
+        <line num="26" count="1" type="stmt"/>
+        <line num="31" count="2" type="stmt"/>
+        <line num="32" count="1" type="stmt"/>
+        <line num="34" count="1" type="stmt"/>
+      </file>
+      <file name="splash.component.styles.js" path="/Users/mac/Documents/Test/Jenius/Ganda_Apptest/src/screen/splash/splash.component.styles.js">
+        <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="6" count="2" type="stmt"/>
+      </file>
+    </package>
+    <package name="service">
+      <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+      <file name="index.js" path="/Users/mac/Documents/Test/Jenius/Ganda_Apptest/src/service/index.js">
+        <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="4" count="1" type="stmt"/>
       </file>
     </package>
   </project>

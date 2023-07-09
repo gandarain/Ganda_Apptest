@@ -1,5 +1,8 @@
 const Routes = {
-  ListContact: 'ListContact'
+  Splash: 'Splash',
+  ListContact: 'ListContact',
+  DetailContact: 'DetailContact',
+  CreateContact: 'CreateContact'
 }
 
 export default Routes
