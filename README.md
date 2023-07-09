@@ -13,7 +13,7 @@ Before run this project, please make sure you are using the correct version, rea
 
 ### Result
 #### APK
-https://drive.google.com/file/d/1AGjXTtw1fRYYdtyfHxS0mKPBfzsDl93F/view?usp=sharing
+https://drive.google.com/file/d/1IJwtMo2xVlszBmJrqIHKJsusfHePmayg/view?usp=sharing
 
 #### Unit test
 <img width="634" alt="Screen Shot 2023-07-09 at 20 07 32" src="https://github.com/gandarain/Ganda_Apptest/assets/27923352/25424be3-1f71-4dde-bc19-9f26ee09d4f5">
@@ -23,7 +23,7 @@ https://drive.google.com/file/d/1AGjXTtw1fRYYdtyfHxS0mKPBfzsDl93F/view?usp=shari
 
 ### Notes
 #### Error `android gradle plugin requires java 11 to run`
-Currently, I am used jdk 1.8 and jdk 11. So to fix this error, please type this command in your terminal `/usr/libexec/java_home -v 11` to find out where is the path of jdk 11, after that navigate to `/gradle.properties`, and then change this value `org.gradle.java.home`
+Currently, I am using jdk 1.8 and jdk 11. So to fix this error, please type this command in your terminal `/usr/libexec/java_home -v 11` to find out where is the path of jdk 11, after that navigate to `/gradle.properties`, and then change this value `org.gradle.java.home`
 
 #### Delete Request is error
 FYI, the delete request is error, hopefully this screenshot will help.
